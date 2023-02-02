@@ -285,76 +285,46 @@ body.dark::-webkit-scrollbar-button {
   display: none;
 }
 
-/* Left Menu Items Scrollbar */
-ul::-webkit-scrollbar {
-  background-color: var(--white);
-  width: 12px;
-  border-radius: 100px;
-}
-
-ul::-webkit-scrollbar-track {
-  background-color: var(--white);
-  border-radius: 100px;
-}
-
-ul::-webkit-scrollbar-thumb {
-  background-color: #ece7e5;
-  border-radius: 12px;
-  border: 2px solid var(--white);
-}
-
-/* Dark Mode of Left Menu Items Scrollbar*/
-.dark ul::-webkit-scrollbar {
-  background-color: var(--slight-grey);
-  width: 12px;
-  border-radius: 100px;
-}
-
-.dark ul::-webkit-scrollbar-track {
-  background-color: var(--mid-black);
-  border-radius: 100px;
-}
-
-.dark ul::-webkit-scrollbar-thumb {
-  background-color: var(--light-black);
-  border-radius: 12px;
-  border: 2px solid var(--mid-black);
-}
-
-/* Bottom Code Scrollbar */
+/* Left Menu Items and Pre tag Scrollbar */
+ul::-webkit-scrollbar,
 pre::-webkit-scrollbar {
   background-color: var(--white);
-  height: 12px;
   width: 12px;
-  border-radius: 0px;
+  height: 12px;
+  border-radius: 100px;
 }
 
+ul::-webkit-scrollbar-track,
 pre::-webkit-scrollbar-track {
   background-color: var(--white);
-  border-radius: 0px;
+  border-radius: 100px;
   margin-inline: 5px;
 }
 
+ul::-webkit-scrollbar-thumb,
 pre::-webkit-scrollbar-thumb {
   background-color: #ece7e5;
   border-radius: 12px;
   border: 2px solid var(--white);
 }
 
-/* Dark Mode of Bottom Code Scrollbar*/
+/* Dark Mode of Left Menu Items and Pre tag Scrollbar*/
+.dark ul::-webkit-scrollbar,
 .dark pre::-webkit-scrollbar {
   background-color: var(--mid-black);
   height: 12px;
   width: 12px;
-  border-radius: 0px;
+  border-radius: 100px;
 }
 
+.dark ul::-webkit-scrollbar-track,
 .dark pre::-webkit-scrollbar-track {
   background-color: var(--mid-black);
-  border-radius: 0px;
+  border-radius: 100px;
   margin-inline: 5px;
 }
 
+.dark ul::-webkit-scrollbar-thumb,
 .dark pre::-webkit-scrollbar-thumb {
   background-color: var(--light-black);
   border-radius: 12px;
