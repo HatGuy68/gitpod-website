@@ -287,6 +287,7 @@ body.dark::-webkit-scrollbar-button {
 
 /* Left Menu Items and Pre tag Scrollbar */
 ul::-webkit-scrollbar,
+div::-webkit-scrollbar,
 pre::-webkit-scrollbar {
   background-color: var(--white);
   width: 12px;
@@ -295,6 +296,7 @@ pre::-webkit-scrollbar {
 }
 
 ul::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track,
 pre::-webkit-scrollbar-track {
   background-color: var(--white);
   border-radius: 100px;
@@ -302,6 +304,7 @@ pre::-webkit-scrollbar-track {
 }
 
 ul::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb,
 pre::-webkit-scrollbar-thumb {
   background-color: #ece7e5;
   border-radius: 12px;
@@ -310,6 +313,7 @@ pre::-webkit-scrollbar-thumb {
 
 /* Dark Mode of Left Menu Items and Pre tag Scrollbar*/
 .dark ul::-webkit-scrollbar,
+.dark div::-webkit-scrollbar,
 .dark pre::-webkit-scrollbar {
   background-color: var(--mid-black);
   height: 12px;
@@ -318,6 +322,7 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .dark ul::-webkit-scrollbar-track,
+.dark div::-webkit-scrollbar-track,
 .dark pre::-webkit-scrollbar-track {
   background-color: var(--mid-black);
   border-radius: 100px;
@@ -325,6 +330,7 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .dark ul::-webkit-scrollbar-thumb,
+.dark div::-webkit-scrollbar-thumb,
 .dark pre::-webkit-scrollbar-thumb {
   background-color: var(--light-black);
   border-radius: 12px;
