@@ -300,7 +300,6 @@ div::-webkit-scrollbar-track,
 pre::-webkit-scrollbar-track {
   background-color: var(--white);
   border-radius: 100px;
-  margin-inline: 5px;
 }
 
 ul::-webkit-scrollbar-thumb,
@@ -311,28 +310,39 @@ pre::-webkit-scrollbar-thumb {
   border: 2px solid var(--white);
 }
 
+ul::-webkit-scrollbar-corner,
+pre::-webkit-scrollbar-corner,
+div::-webkit-scrollbar-corner {
+  border-radius: 50%;
+}
+
 /* Dark Mode of Left Menu Items and Pre tag Scrollbar*/
 .dark ul::-webkit-scrollbar,
 .dark div::-webkit-scrollbar,
 .dark pre::-webkit-scrollbar {
   background-color: var(--mid-black);
-  height: 12px;
-  width: 12px;
-  border-radius: 100px;
 }
 
 .dark ul::-webkit-scrollbar-track,
 .dark div::-webkit-scrollbar-track,
 .dark pre::-webkit-scrollbar-track {
   background-color: var(--mid-black);
-  border-radius: 100px;
-  margin-inline: 5px;
 }
 
 .dark ul::-webkit-scrollbar-thumb,
 .dark div::-webkit-scrollbar-thumb,
 .dark pre::-webkit-scrollbar-thumb {
   background-color: var(--light-black);
-  border-radius: 12px;
   border: 2px solid var(--mid-black);
+}
+
+.dark ul::-webkit-scrollbar-corner,
+.dark pre::-webkit-scrollbar-corner,
+.dark div::-webkit-scrollbar-corner {
+  border-radius: 50%;
+}
+
+/* CSS adjustment for pre tag */
+pre::-webkit-scrollbar-track {
+  margin: 5px;
 }
