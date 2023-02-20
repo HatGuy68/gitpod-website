@@ -212,12 +212,11 @@ The default timeout, and the ability to extend a workspace timeout depends on yo
 
 ### set
 
-Sets the current workspace's timeout to the given value. The value must be a positive integer followed by a unit of time. The unit of time can be one of `s`, `m`, `h` for seconds, minutes, hours respectively. The maximum workspace timeout is 24 hours.
+Sets the current workspace's timeout to the given value. The value must be a positive integer followed by a unit of time. The unit of time can be one of `m`, `h` for minutes and hours, respectively. The maximum workspace timeout is 24 hours.
 
 <!--
 Technically, Following ones are also valid:
 
-* `gp timeout set 300s`
 * `gp timeout set 300m`
 * `gp timeout set 24h`
 
@@ -327,6 +326,8 @@ gp docs
 ```
 
 ## rebuild
+
+> `gp rebuild` is currently in [Beta](/docs/help/public-roadmap/release-cycle) · [Send feedback](https://github.com/gitpod-io/gitpod/issues/7671).
 
 Re-builds the workspace image, it's useful to validate and debug your [custom Workspace image](/docs/configure/workspaces/workspace-image#custom-base-image).
 

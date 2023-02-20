@@ -2,16 +2,16 @@
   import LinkButton from "$lib/components/ui-library/link-button";
 </script>
 
-<h3>Connect Git repository</h3>
+<h3>Get started with any project</h3>
 <p class="max-w-md mx-auto">
   Select a Git provider to start with an existing project from any Git context.
 </p>
-<div class="inline-flex flex-col my-large space-y-4">
+<div class="inline-flex flex-col my-large space-y-2">
   <LinkButton
     href="https://gitpod.io/workspaces/"
     variant="unstyled"
     size="large"
-    class="bg-[#5e48ba] text-white dark:text-important hover:text-white focus:text-white active:text-white hover:opacity-90 focus:opacity-90 active:opacity-90 flex items-center"
+    class="bg-[#5e48ba] h-12 text-white dark:text-important hover:text-white focus:text-white active:text-white hover:opacity-90 focus:opacity-90 active:opacity-90 flex items-center"
   >
     <svg
       class="h-7 w-7 mr-micro"
@@ -31,7 +31,7 @@
     href="https://gitpod.io/workspaces/"
     variant="unstyled"
     size="large"
-    class="bg-important text-white dark:text-black flex items-center hover:text-white focus:text-white active:text-white hover:bg-less-important focus:opacity-90 active:opacity-90 dark:hover:bg-sand-dark dark:hover:opacity-80"
+    class="bg-important h-12 text-white dark:text-black flex items-center hover:text-white focus:text-white active:text-white hover:bg-less-important focus:opacity-90 active:opacity-90 dark:hover:bg-sand-dark dark:hover:opacity-80"
   >
     <svg
       class="h-7 w-7 mr-micro"
@@ -54,7 +54,7 @@
     size="large"
     variant="unstyled"
     href="https://gitpod.io/workspaces/"
-    class="bg-[#265583] text-white dark:text-important flex items-center hover:text-white focus:text-white active:text-white hover:opacity-90 focus:opacity-90 active:opacity-90"
+    class="bg-[#265583] h-12 text-white dark:text-important flex items-center hover:text-white focus:text-white active:text-white hover:opacity-90 focus:opacity-90 active:opacity-90"
   >
     <svg
       class="h-7 w-7 mr-micro"
@@ -91,12 +91,12 @@
   </LinkButton>
   <!-- <a href="#" class="link--light-grey">Third-party providers ↗</a> -->
 </div>
-<p class="text-large">
+<p class="text-lg">
   Or prefix any GitLab, GitHub or Bitbucket URL with
   <br />
   <span
     class="text-dark-grey inline-block px-micro mt-macro bg-tertiary rounded-xl"
   >
-    gitpod.io/#
+    <code>gitpod.io/#</code>
   </span>
 </p>
